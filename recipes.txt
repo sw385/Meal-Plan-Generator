@@ -1,0 +1,12 @@
+Title:
+Source:
+150 g ingredient name
+120 g ingredient name
+50 g ingredient name
+
+Title:
+Source:
+150 g ingredient name
+120 g ingredient name
+50 g ingredient name
+(leave out anything "to taste")
