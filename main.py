@@ -58,7 +58,7 @@ for protein in proteins:
         print(best_candidate)
         for n, ingredient in enumerate(best_candidate['combination']):
             print(ingredient)
-            print('    ' + str(round(best_candidate['units'][n] * ingredients[ingredient]['Unit weight'], 2)) + ' g')
+            print('    ' + str(int(round(best_candidate['units'][n] * ingredients[ingredient]['Unit weight']))) + ' g')
         calories = 0
         g_fat = 0
         g_protein = 0
@@ -74,5 +74,5 @@ for protein in proteins:
             g_fiber += best_candidate['units'][n] * ingredients[ingredient]['Fiber']
             g_net_carbs += best_candidate['units'][n] * ingredients[ingredient]['Net carbs']
         print(str(int(calories)) + ' calories')
-        print(int(g_fat), int(g_protein), int(g_fiber), int(g_net_carbs))
+        print(int(g_fat), 'g fat, ', int(g_protein), 'g protein, ', int(g_fiber), 'g fiber, ', int(g_net_carbs), 'g net carbs')
         print()
