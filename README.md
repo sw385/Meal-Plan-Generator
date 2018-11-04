@@ -4,7 +4,7 @@ This program is used to create rudimentary meal plans that are nutritionally bal
 
 Provided with data on the macronutrient profiles of several foods, the user specifies their daily macronutrient requirements, the number of meals they wish to eat per day, and the foods they would like to include in their meal. Using the simplex algorithm functionality provided in scipy, the program outputs a meal containing some or all of the user-specified foods in amounts that will best fulfill the macronutrient targets.
 
-'''
+```
 chicken breast
     91 g
 spinach
@@ -15,7 +15,7 @@ peanut butter chunky
     50 g
 521 calories
 25 g fat,  41 g protein,  12 g fiber,  30 g net carbs
-'''
+```
 
 ## Prerequisites
 
